@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    --fonte-principal: 'AR One Sans', sans-serif;
+    --cor-clara: #F2FDFF;
+    --cor-escura: #101935;
+    --cor-rosa: #DBCBD8;
+    --cor-verde: #9AD4D6;
+    --cor-roxa: #564787;
+    --cor-sombra-clara: rgba(255, 255, 255, 0.5);
+    --cor-sombra-escura: rgba(0, 0, 0, 0.3);
+    --sombra: inset -5px -5px 10px 0px var(--cor-sombra-clara), inset 5px 5px 10px 0px var(--cor-sombra-escura);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    color: var(--cor-escura);
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-clara);
+}
+
+main {
+    margin-left: 280px;
+    color: var(--cor-escura);
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#inicio {
+    background-image: url(../img/foto_inicio_dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#inicio h1 {
+    font-size: 4em;
+    padding: 60vh 0 1em 20px;
+    color: var(--cor-clara);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cor-roxa);
+    text-shadow: 2px 2px 0 var(--cor-rosa), 4px 4px 0 var(--cor-verde);
+}
+
+#inicio span {
+    font-size: 2em;
+    padding: 5em 0 0 20px;
+    color: var(--cor-clara);
+}
+
+h2 {
+    font-size: 2em;
+    color: var(--cor-roxa);
+    padding: 15vh 0 0 5vw;
+}
+
+#sobre {
+    background-color: #FFFFFF;
+}
+
+.texto-imagem {
+    display: flex;
+    margin: 5vw;
+}
+
+.texto-imagem__texto {
+    list-style-type: square;
+}
+
+.texto-imagem li {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+

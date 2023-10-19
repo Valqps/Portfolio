@@ -89,7 +89,7 @@
 
 /* title descr */
 #trajetoria ul li .descr {
-  /* background: var(--cor-clara); */
+  background: var(--cor-clara);
   position: relative;
   padding-inline: 1.5rem;
   border-radius: 5px;
@@ -160,12 +160,24 @@
   }
 }
 
-#timeline__2011 {
+.item-timeline__figura {
+  width: 100%;
+}
+
+/* #timeline__2011 {
   background-image: url(../img/premio_melhorAluno.jpg);
   background-repeat: no-repeat;
   background-size:contain;
 }
 
-#timeline__2018 {
-    background: url(../img/ifsp\ suzano.jpg);
+#timeline__2015 {
+  background-image: url(../img/network.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+#timeline__2018 {
+  background-image: url(../img/ifsp\ suzano.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+} */

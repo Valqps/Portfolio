@@ -49,3 +49,11 @@ h2 {
     font-size: 1.5em;
     line-height: 2em;
 }
+
+.coluna {
+    width: 45%;
+}
+
+.coluna-direita {
+    padding-left: 30px;
+}

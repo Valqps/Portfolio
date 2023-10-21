@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    padding: 5vh 5vw;
+    font-size: 1.3em;
+}
+
+.icone-rodape {
+    color: var(--cor-clara);
+    background-color: var(--cor-verde);
+    font-size: 2em;
+    margin: 0 15px;
+}
+
+#contato h4 {
+    margin: 0 5vw;
+    padding: 0;
+}
+
+#contato hr {
+    margin: 50px 0;
+    border-color: var(--cor-sombra-escura);
+}

@@ -1,3 +1,7 @@
+#habilidades {
+    background-color: var(--cor-verde-transparente);
+}
+
 #habilidades p {
     font-size: 1.3em;
     line-height: normal;
@@ -5,7 +9,7 @@
 }
 
 .barra {
-    background-color: var(--cor-roxa);
+    background-color: var(--cor-escura);
     font-size: 1.3em;
 }
 

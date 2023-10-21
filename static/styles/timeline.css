@@ -12,8 +12,7 @@
   gap: 2rem;
   padding: 2rem;
   color: var(--cor-escura);
-  background: var(--cor-verde);
-  font-size: 1.8em;
+  background: var(--cor-verde-transparente);
   line-height: 1.5em;
 }
 
@@ -39,8 +38,6 @@
   border-radius: calc(var(--line-w) / 2);
 }
 
-/* columns*/
-
 /* row gaps */
 #trajetoria ul li:not(:last-child) {
   margin-bottom: var(--row-gap);
@@ -64,7 +61,7 @@
   text-align: center;
   background-color: var(--cor-escura);
   color: var(--cor-clara);
-  font-size: 1.25rem;
+  font-size: 1.5em;
   font-weight: 700;
   display: grid;
   place-content: center;
@@ -93,20 +90,22 @@
   position: relative;
   padding-inline: 1.5rem;
   border-radius: 5px;
+  font-size: 1.5em;
+  line-height: 2em;
 }
-#trajetoria ul li .title {
+/* #trajetoria ul li .title {
   overflow: hidden;
   padding-block-start: 1.5rem;
   padding-block-end: 1rem;
   font-weight: 500;
-}
+} */
 #trajetoria ul li .descr {
   padding-block-end: 1.5rem;
   font-weight: 300;
 }
 
 /* shadows */
-#trajetoria ul li .title::before,
+/* #trajetoria ul li .title::before, */
 #trajetoria ul li .descr::before {
   content: "";
   position: absolute;
@@ -118,9 +117,9 @@
   filter: blur(4px);
   transform: translate(-50%, 50%);
 }
-#trajetoria ul li .title::before {
+/* #trajetoria ul li .title::before {
   bottom: calc(100% + 0.125rem);
-}
+} */
 
 #trajetoria ul li .descr::before {
   z-index: -1;
@@ -160,8 +159,16 @@
   }
 }
 
+.item-timeline {
+  text-align: center;
+}
+
 .item-timeline__figura {
   width: 100%;
+}
+
+.figura-medalha {
+  width: 60%;
 }
 
 /* #timeline__2011 {

@@ -13,7 +13,7 @@ aside {
     background-color: var(--cor-rosa);
     border: 1px solid var(--cor-escura);
     overflow-y: auto;
-    width: 250px;
+    width: 280px;
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
     z-index: 9997;
@@ -41,9 +41,9 @@ aside .perfil img{
 }
 
 .perfil__redes-sociais a :hover{
-    background-color: var(--cor-verde);
-    border: 2px solid var(--cor-escura);
-    box-shadow: var(--sombra);
+    /* border: 0.5px solid var(--cor-sombra-escura);
+    box-shadow: var(--sombra); */
+    color: var(--cor-clara);
 }
 
 .bi {
@@ -70,10 +70,10 @@ hr {
 }
 
 .menu__item :hover {
-    background-color: var(--cor-verde);
-    border-radius: 5px;
+    /* border-radius: 5px;
     box-shadow: var(--sombra);
-    border: 2px solid var(--cor-escura);
+    border: 2px solid var(--cor-escura); */
+    color: var(--cor-clara);
 }
 
 .menu__item h3 :hover {
@@ -90,5 +90,8 @@ aside h3 {
 }
 
 .ativo {
-    color: var(--cor-roxa);
+    border-radius: 5px;
+    box-shadow: var(--sombra);
+    /* border: 0.5px solid var(--cor-sombra-escura); */
+    color: var(--cor-clara);
 }

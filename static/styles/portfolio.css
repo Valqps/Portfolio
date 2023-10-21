@@ -1,0 +1,14 @@
+.carrossel-caixa {
+    border: 2px solid var(--cor-escura);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.carrossel-conteudo {
+    text-align: center;
+}
+
+.figura-carrossel {
+    width: 70%;
+    margin: 50px;
+}

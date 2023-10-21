@@ -1,0 +1,26 @@
+#inicio {
+    background-image: url(../img/foto_inicio_dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#inicio h1 {
+    font-size: 4em;
+    padding: 60vh 0 1em 20px;
+    color: var(--cor-clara);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cor-roxa);
+    text-shadow: 2px 2px 0 var(--cor-rosa), 4px 4px 0 var(--cor-verde);
+}
+
+#inicio span {
+    font-size: 2em;
+    padding: 5em 0 0 20px;
+    color: var(--cor-clara);
+}
+
+#inicio .icone-sobre {
+    color: var(--cor-roxa);
+}

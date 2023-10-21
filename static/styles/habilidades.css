@@ -1,3 +1,14 @@
-.habilidades__barras {
-    display: flex;
+#habilidades p {
+    font-size: 1.3em;
+    line-height: normal;
+    margin: 0;
+}
+
+.barra {
+    background-color: var(--cor-roxa);
+    font-size: 1.3em;
+}
+
+.habilidades__item {
+    margin: 23px 0;
 }

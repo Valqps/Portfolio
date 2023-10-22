@@ -7,7 +7,6 @@
     <!-- ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/styles/style.css">
     <link rel="stylesheet" href="../static/styles/menu-lateral.css">
     <link rel="stylesheet" href="../static/styles/inicio-sobre.css">
@@ -57,7 +56,7 @@
                     <a href="#habilidades" class="menu__item"><h3><i class="bi bi-card-list"></i>Habilidades</h3></a>
                 </li>
                 <li>
-                    <a href="#portfolio" class="menu__item"><h3><i class="bi bi-card-list"></i>Portfólio</h3></a>
+                    <a href="#projetos" class="menu__item"><h3><i class="bi bi-card-list"></i>Projetos</h3></a>
                 </li>
             </ul>
         </nav>
@@ -81,8 +80,8 @@
                     </ul>
                 </div>
                 <div>
-                    <br>
-                    <img src="../static/img/Imagem1.png" alt="Imagem animada de um mini-game com o jogo tetris" width="500px" height="auto">
+                    <br><br><br><br>
+                    <img src="../static/img/foto-sobre.png" alt="Imagem animada de um mini-game com o jogo tetris" width="500px" height="auto">
                 </div>
             </div>
         </section>
@@ -267,34 +266,90 @@
                 </div>
             </div>
         </section>
-        <section id="portfolio">
-            <h2>Portfólio</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner carrossel-caixa">
-                  <div class="carousel-item active carrossel-conteudo">
-                    <img class="d-block figura-carrossel" src="../static/img/network.jpg" alt="First slide">
-                  </div>
-                  <div class="carousel-item carrossel-conteudo">
-                    <img class="d-block figura-carrossel" src="../static/img/elementor-wordpress-sidebar.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-item carrossel-conteudo">
-                    <img class="d-block figura-carrossel" src="../static/img/grupoSandro.jpg" alt="Third slide">
-                  </div>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-caixa">
+                <div class="carrossel">
+                    <input type="radio" name="slides" checked="checked" id="slide-1">
+                    <input type="radio" name="slides" id="slide-2">
+                    <input type="radio" name="slides" id="slide-3">
+                    <input type="radio" name="slides" id="slide-4">
+                    <input type="radio" name="slides" id="slide-5">
+                    <ul class="carrossel__slides">
+                        <li class="carrossel-slides__item">
+                            <figure>
+                                <div>
+                                    <img src="../static/img/site-feadev.jpg" alt="">
+                                </div>
+                                <figcaption>
+                                    Projeto construído para o grupo de estudos FEA.dev, de alunos da FEA-USP. Neste projeto, eu e alguns amigos desenvolvemos um website para a entidade estudantil.
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrossel-slides__item">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1043/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Christian Joudrey</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrossel-slides__item">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1044/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Steve Carter</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrossel-slides__item">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1045/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Aleksandra Boguslawska</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carrossel-slides__item">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1049/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Rosan Harmens</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>    
+                    <ul class="carousel__thumbnails">
+                        <li>
+                            <label for="slide-1"><img src="../static/img/site-feadev-miniatura.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-3"><img src="https://picsum.photos/id/1044/150/150" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" alt=""></label>
+                        </li>
+                    </ul>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+            </div>
         </section>
         <footer id="contato">
             <hr>

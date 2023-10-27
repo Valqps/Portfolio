@@ -34,8 +34,19 @@
     line-height: 2em;
 }
 
-@media screen and (max-width: 800px) {
+.texto-imagem__imagem {
+    width: 40vw;
+    height: auto;
+}
+
+@media screen and (max-width: 854px) {
     .texto-imagem {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-imagem__imagem {
+        width: 80vw;
+
     }
 }

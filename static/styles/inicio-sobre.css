@@ -24,3 +24,18 @@
 #inicio .icone-sobre {
     color: var(--cor-roxa);
 }
+
+.texto-imagem {
+    display: flex;
+}
+
+.texto-imagem li {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    .texto-imagem {
+        flex-direction: column;
+    }
+}

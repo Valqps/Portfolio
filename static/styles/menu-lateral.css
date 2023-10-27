@@ -5,6 +5,7 @@ aside h1 {
 }
 
 aside {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -95,3 +96,9 @@ aside h3 {
     /* border: 0.5px solid var(--cor-sombra-escura); */
     color: var(--cor-clara);
 }
+
+@media screen and (max-width: 1056px) {
+    aside {
+        display: none;
+    }
+} 

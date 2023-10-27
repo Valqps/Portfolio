@@ -1,7 +1,3 @@
-.duas-colunas {
-    display: flex;
-}
-
 .cursos__item {
     line-height: normal;
     font-size: 1.5em;
@@ -19,6 +15,3 @@
     font-size: 0.9em;
 }
 
-/* .cursos__formacao {
-    background-color: var(--cor-verde-transparente);
-} */

@@ -41,6 +41,10 @@ h2 {
     font-weight: 600;
 }
 
+.duas-colunas {
+    display: flex;
+}
+
 .coluna {
     width: 45%;
 }
@@ -60,5 +64,19 @@ h3 {
 @media screen and (max-width: 1056px) {
     main {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .duas-colunas {
+        flex-direction: column;
+    }
+
+    .coluna {
+        width: 100%;
+    }
+    
+    .coluna-direita {
+        padding-left: 0;
     }
 }

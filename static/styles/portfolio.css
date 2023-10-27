@@ -29,8 +29,8 @@
   
 .projetos-caixa {
     max-width: 1044px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 0;
+    padding: 0;
 }
   
 .carrossel {
@@ -50,11 +50,11 @@
         position: absolute;
           
         /* &:nth-of-type(6):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -500%; } */
-        &:nth-of-type(5):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -400%; }
-        &:nth-of-type(4):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -300%; }
-        &:nth-of-type(3):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -200%; }
-        &:nth-of-type(2):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -100%; }
-        &:nth-of-type(1):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: 0%; }
+        &:nth-of-type(5):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -500%; }
+        &:nth-of-type(4):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -400%; }
+        &:nth-of-type(3):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -300%; }
+        &:nth-of-type(2):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -200%; }
+        &:nth-of-type(1):checked ~ .carrossel__slides .carrossel-slides__item:first-of-type { margin-left: -100%; }
           
         &:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) { box-shadow: 0px 0px 0px 5px var(--cor-verde-transparente); }
         &:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }

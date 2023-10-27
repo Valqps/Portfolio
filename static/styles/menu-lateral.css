@@ -10,7 +10,7 @@ aside {
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: var(--cor-rosa);
     border: 1px solid var(--cor-escura);
     overflow-y: auto;

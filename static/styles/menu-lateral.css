@@ -14,7 +14,7 @@ aside {
     background-color: var(--cor-rosa);
     border: 1px solid var(--cor-escura);
     overflow-y: auto;
-    width: 280px;
+    width: 80px;
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
     z-index: 9997;
@@ -24,8 +24,8 @@ aside .perfil img{
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 6px solid var(--cor-escura);
-    border-radius: 50%;
+    border: 3px solid var(--cor-escura);
+    border-radius: 5%;
     box-shadow: 2px 0px 5px var(--cor-sombra-escura);
 }
 
@@ -74,20 +74,28 @@ hr {
     /* border-radius: 5px;
     box-shadow: var(--sombra);
     border: 2px solid var(--cor-escura); */
-    color: var(--cor-clara);
+    
 }
 
-.menu__item h3 :hover {
+.menu__item-texto :hover {
     background-color: transparent;
     border: none;
+    color: var(--cor-clara);
     box-shadow: none;
+}
+
+.menu__item-texto {
+    display: flex;
+    align-items: center;
+}
+
+.menu-detalhado {
+    display: none;
 }
 
 aside h3 {
     color: var(--cor-escura);
     font-size: 1.5em;
-    margin-top: 20px;
-    padding: 10px;
 }
 
 .ativo {

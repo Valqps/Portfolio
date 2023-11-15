@@ -13,13 +13,19 @@ nav {
     z-index: 9997;
 }
 
+.link-curriculo {
+    text-decoration: none;
+}
+
 nav h1 {
     font-size: 1.8em;
     text-align: right;
-    transform: rotate(270deg) translateY(0px) translateX(-150px);
+    transform: rotate(270deg) translateY(-45px) translateX(-18vh);
+    transition-duration: 0.5s;
     margin: 0;
     padding: 0;
     width: 30vh;
+    color: var(--cor-escura);
 }
 
 nav h3 {
@@ -32,16 +38,17 @@ nav:hover{
 }
 
 nav:hover h1{
-    transform: rotate(0);
-    margin: 20px 0;
+    transform: rotate(360deg);
+    margin: 0;
     text-align: left;
+    transition-duration: 0.5s;
 }
 
 nav .perfil {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 35vh;
+    height: 30vh;
     padding: 0 15px;
 }
 
@@ -50,7 +57,7 @@ nav:hover .perfil {
 }
 
 nav .perfil img{
-    margin: 5vh 0;
+    margin: 5vh 0 5vh 30px;
     display: block;
     width: 120px;
     height: 120px;
@@ -59,10 +66,6 @@ nav .perfil img{
     box-shadow: 2px 0px 5px var(--cor-sombra-escura);
 }
 
-.bi {
-    font-size: 23px;
-    padding: 4px 10px;
-}
 
 hr {
     color: var(--cor-escura);
@@ -85,7 +88,7 @@ hr {
 
 .navbar-item:hover .navbar-item__container h3 {
     color: var(--cor-clara);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 .navbar-item__container {

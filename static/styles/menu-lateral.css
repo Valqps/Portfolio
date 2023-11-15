@@ -1,4 +1,4 @@
-aside h1 {
+nav h1 {
     font-size: 1.8em;
     text-align: right;
     transform: rotate(270deg) translateY(0px) translateX(-150px);
@@ -7,7 +7,7 @@ aside h1 {
     width: 30vh;
 }
 
-aside {
+nav {
     display: block;
     position: fixed;
     left: -200px;
@@ -23,28 +23,28 @@ aside {
     z-index: 9997;
 }
 
-aside:hover{
+nav:hover{
     left: 0px;
 }
 
-aside:hover h1{
+nav:hover h1{
     transform: rotate(0);
     margin: 20px 0;
     text-align: left;
 }
 
-aside .perfil {
+nav .perfil {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 35vh;
 }
 
-aside:hover .perfil {
+nav:hover .perfil {
     flex-direction: column;
 }
 
-aside .perfil img{
+nav .perfil img{
     margin: 5vh 0;
     display: block;
     width: 120px;
@@ -74,32 +74,32 @@ hr {
 }
 
 
-.menu__item {
+.navbar-item {
     text-decoration: none;
     color: var(--cor-escura);
     padding: 0;
 }
 
 
-.menu__item:hover .menu__item-texto {
-    background-color: transparent;
+.navbar-item:hover .navbar-item__container {
+    background-color: var(--cor-rosa);
     border: none;
     color: var(--cor-clara);
     box-shadow: none;
 }
 
 
-.menu__item:hover .menu__item-texto h3 {
+.navbar-item:hover .navbar-item__container h3 {
     color: var(--cor-clara);
 }
 
-.menu__item-texto {
+.navbar-item__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-aside h3 {
+nav h3 {
     color: var(--cor-escura);
     font-size: 1.5em;
 }

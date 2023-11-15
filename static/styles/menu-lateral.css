@@ -93,6 +93,10 @@ hr {
     justify-content: space-between;
 }
 
+.actived div{
+    background-color: var(--cor-verde-transparente);
+}
+
 /* @media screen and (max-width: 1056px) {
     aside {
         display: none;

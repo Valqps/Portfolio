@@ -1,19 +1,18 @@
-var itensDetalhados = document.querySelectorAll('menu-detalhado-oculto');
-var menuLateral = document.getElementById('menu-lateral');
+var linksMenu = document.querySelectorAll('.js-link');
+var sections = document.querySelectorAll('.section');
 
-// menuLateral.addEventListener('mousemove', () => {
-//     itensDetalhados.forEach(elemento => {
-//         console.log(elemento);
-//         // elemento.classList.remove('menu-detalhado-oculto')
-//     })
-// });
+window.addEventListener('scroll', () => {
+    sections.forEach(section => {
+        let top = window.scrollY;
+        let offset = section.offsetTop;
+        let heightSection = section.offsetHeight;
+        let idSection = section.getAttribute('id');
 
-// menuLateral.forEach(item => {   
-//     item.addEventListener("click", () => {
-//         console.log('clicou');
-//         itensDetalhados.forEach(elemento => {
-//             console.log('clicou');
-//             elemento.classList.add('menu-detalhado-exibido')
-//         })        
-//     })
-// })
+        if(top >= offset && top <= offset + heightSection){
+            linksMenu.forEach(link => {
+                link.classList.remove('actived');
+                document.querySelector(`nav a[href*='${idSection}']`).classList.add('actived');
+            })
+        }
+    })
+})

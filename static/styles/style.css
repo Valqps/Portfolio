@@ -25,7 +25,9 @@ body {
 }
 
 main {
+    position: absolute;
     margin-left: 80px;
+    top: 0;
     color: var(--cor-escura);
 }
 

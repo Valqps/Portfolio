@@ -80,14 +80,8 @@ hr {
     padding: 0;
 }
 
-.menu__item :hover {
-    /* border-radius: 5px;
-    box-shadow: var(--sombra);
-    border: 2px solid var(--cor-escura); */
-    
-}
 
-.menu__item-texto :hover {
+.menu__item:hover .menu__item-texto {
     background-color: transparent;
     border: none;
     color: var(--cor-clara);

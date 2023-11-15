@@ -1,19 +1,23 @@
 aside h1 {
     font-size: 1.8em;
-    margin: 20px 0;
-    text-align: left;
+    text-align: right;
+    transform: rotate(270deg) translateY(0px) translateX(-150px);
+    margin: 0;
+    padding: 0;
+    width: 30vh;
 }
 
 aside {
     display: block;
-    position: relative;
+    position: fixed;
     left: -200px;
     top: 0;
     bottom: 0;
-    background-color: var(--cor-rosa);
+    background-color: var(--cor-rosa-levetransparencia);
     border: 1px solid var(--cor-escura);
     overflow-y: auto;
     width: 250px;
+    height: 100vh;
     transition: all ease-in-out 0.5s;
     padding: 0 10px;
     z-index: 9997;
@@ -23,10 +27,28 @@ aside:hover{
     left: 0px;
 }
 
+aside:hover h1{
+    transform: rotate(0);
+    margin: 20px 0;
+    text-align: left;
+}
+
+aside .perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+aside:hover .perfil {
+    flex-direction: column;
+}
+
 aside .perfil img{
     margin: 15px 0;
     display: block;
     width: 120px;
+    height: 120px;
     border: 3px solid var(--cor-escura);
     border-radius: 5%;
     box-shadow: 2px 0px 5px var(--cor-sombra-escura);

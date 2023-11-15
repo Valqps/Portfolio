@@ -7,10 +7,9 @@ nav {
     background-color: var(--cor-rosa-levetransparencia);
     border: 1px solid var(--cor-escura);
     overflow-y: auto;
-    width: 250px;
+    width: 270px;
     height: 100vh;
     transition: all ease-in-out 0.5s;
-    padding: 0 10px;
     z-index: 9997;
 }
 
@@ -43,6 +42,7 @@ nav .perfil {
     flex-direction: row;
     justify-content: space-between;
     height: 35vh;
+    padding: 0 15px;
 }
 
 nav:hover .perfil {
@@ -73,24 +73,26 @@ hr {
 .navbar-item {
     text-decoration: none;
     color: var(--cor-escura);
-    padding: 0;
 }
 
 .navbar-item:hover .navbar-item__container {
     border: none;
     color: var(--cor-clara);
     box-shadow: 0px 1px var(--cor-clara);
+    transition-duration: 0.3s;
 }
 
 
 .navbar-item:hover .navbar-item__container h3 {
     color: var(--cor-clara);
+    transition-duration: 0.5s;
 }
 
 .navbar-item__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 .actived div{

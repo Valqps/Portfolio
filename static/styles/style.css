@@ -15,6 +15,10 @@
     --cor-verde-transparente: #23B5D350;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--fonte-principal);
     font-size: 12px;

@@ -88,6 +88,11 @@ hr {
     box-shadow: none;
 }
 
+
+.menu__item:hover .menu__item-texto h3 {
+    color: var(--cor-clara);
+}
+
 .menu__item-texto {
     display: flex;
     align-items: center;

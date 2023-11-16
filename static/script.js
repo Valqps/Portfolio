@@ -8,7 +8,7 @@ window.addEventListener('scroll', () => {
         let heightSection = section.offsetHeight;
         let idSection = section.getAttribute('id');
 
-        if(top >= offset && top <= offset + heightSection){
+        if(top >= offset-1 && top <= offset + heightSection){
             linksMenu.forEach(link => {
                 link.classList.remove('actived');
                 document.querySelector(`nav a[href*='${idSection}']`).classList.add('actived');

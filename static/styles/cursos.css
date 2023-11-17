@@ -1,17 +1,42 @@
-.cursos__item {
-    line-height: normal;
-    font-size: 1.5em;
-    padding: 10px;
-    /* border: 2px solid var(--cor-escura); */
+#cursos h2 {
+    margin-bottom: 1em;
+}
+
+.borda-colorida {
+    /* line-height: normal; */
+    
+    margin: 20px 0;
+    border: 2px solid var(--cor-rosa);
     border-radius: 10px;
-    margin: 10px 0;
+    filter: drop-shadow(2px 2px 0.5px var(--cor-verde));
+}
+
+.cursos__item {
+    padding: 20px;
+    background-color: var(--cor-clara);
+    border-radius: 10px;
+    margin: 2px 0 0 3px;
+}
+
+.cursos__item__oculto {
+    display: none;
 }
 
 .cursos__item p {
-    margin: 5px;
+    margin: 5px 0;
+    font-size: 1.5em;
 }
 
-.cursos__item__descricao {
-    font-size: 0.9em;
+.cursos__item h3 {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin: 0 0 12px 0;
 }
 
+.cursos__item i {
+    margin: 0 0 12px 0;
+}
+
+.cursos__item h4 {
+    font-size: 1.2em;
+}

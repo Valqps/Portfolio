@@ -53,12 +53,17 @@ h2 {
     font-weight: 600;
 }
 
-.duas-colunas {
+.colunas {
     display: flex;
+    justify-content: space-between;
 }
 
-.coluna {
-    width: 45%;
+.alinhados {
+    align-items: center;
+}
+
+.coluna-item {
+    width: 50%;
 }
 
 .coluna-direita {

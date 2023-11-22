@@ -25,8 +25,8 @@
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
   list-style: none;
-  /* width: min(60rem, 90%); */
-  /* margin-inline: auto; */
+  /* width: min(60rem, 90%);
+  margin-inline: auto; */
 }
 
 /* line */
@@ -164,7 +164,7 @@
 }
 
 .item-timeline__figura {
-  width: 100%;
+  width: 90%;
 }
 
 .figura-medalha {

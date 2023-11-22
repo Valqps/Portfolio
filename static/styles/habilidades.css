@@ -2,17 +2,52 @@
     background-color: var(--cor-verde-transparente);
 }
 
+#habilidades h2 {
+    margin-bottom: 0.8em;
+}
+
+#habilidades h3 {
+    font-weight: bold;
+}
+
 #habilidades p {
-    font-size: 1.3em;
     line-height: normal;
-    margin: 0;
+    margin: 1.5em 0 0.5em 0;
+}
+
+.icone-brands {
+    margin-right: 12px;
+}
+
+.habilidades__texto {
+    font-size: 2em;
+}
+
+.habilidades__item__tag {
+    font-size: 1.5em;
 }
 
 .barra {
     background-color: var(--cor-escura);
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
+    color: var(--cor-clara);
+    text-align: right;
+    padding-right: 10px;
 }
 
 .habilidades__item {
     margin: 23px 0;
+}
+
+#habilidades .coluna {
+    width: 100%;
+}
+
+.habilidade {
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-right: 12px;
 }
